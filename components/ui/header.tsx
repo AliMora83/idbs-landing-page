@@ -43,8 +43,6 @@ export default function Header() {
           <div className="shrink-0 mr-4">
             <Logo />
           </div>
-
-          {/* Desktop navigation */}
         </div>
       </div>
     </header>

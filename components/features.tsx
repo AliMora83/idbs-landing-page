@@ -7,8 +7,8 @@ import {
 } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import FeaturesBg from "@/public/images/features-bg.png";
-import FeaturesElement from "@/public/images/features-element.png";
+import FeaturesBg from "@/public/images/badge_1.png";
+import FeaturesElement from "@/public/images/idbs_click.png";
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
@@ -67,13 +67,11 @@ export default function Features() {
                 <h3 className="h3 mb-3">
                   Top courses
                 </h3>
-                <p className="text-xl text-gray-600">
-                  Duis aute irure dolor in
-                  reprehenderit in voluptate velit
-                  esse cillum dolore pariatur.
-                  Excepteur sint occaecat
-                  cupidatat non proident, sunt in
-                  culpa.
+                <p className="text-base text-gray-600">
+                  Easy to follow certification
+                  journey in
+                  <br /> digital business
+                  transformation and strategy.
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -92,14 +90,14 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple
-                      ecosystem
+                      Basic package
                     </div>
-                    <div className="text-gray-600">
-                      Take collaboration to the
-                      next level with security and
-                      administrative features
-                      built for teams.
+                    <div className="text-gray-400 text-sm">
+                      Digital Business Strategy:
+                      Leveraging Emerging
+                      Technologies (IOT, AI and
+                      AR) Foundation CDTF
+                      Certificate
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -126,14 +124,13 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple
-                      ecosystem
+                      Standard Package
                     </div>
-                    <div className="text-gray-600">
-                      Take collaboration to the
-                      next level with security and
-                      administrative features
-                      built for teams.
+                    <div className="text-gray-400 text-sm">
+                      Digital Business Strategy
+                      Course: Beat the competition
+                      with the best strategy
+                      Executive (CDTE) course
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -163,14 +160,13 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">
-                      Building the Simple
-                      ecosystem
+                      Premium package
                     </div>
-                    <div className="text-gray-600">
-                      Take collaboration to the
-                      next level with security and
-                      administrative features
-                      built for teams.
+                    <div className="text-gray-400 text-sm">
+                      Systems Engineering
+                      Management and Design
+                      Reviews Executive (CDTE)
+                      course
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -218,12 +214,12 @@ export default function Features() {
                       alt="Features bg"
                     />
                     <Image
-                      className="md:max-w-none absolute w-full left-0 transform animate-float"
+                      className="md:max-w-none absolute w-2/3 right-0 transform animate-float rounded-xl"
                       src={FeaturesElement}
                       width={500}
-                      height="44"
+                      height="24"
                       alt="Element"
-                      style={{ top: "30%" }}
+                      style={{ top: "65%" }}
                     />
                   </div>
                 </Transition>
