@@ -7,7 +7,9 @@ import {
 } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
-import FeaturesBg from "@/public/images/badge_1.png";
+import FeaturesBg1 from "@/public/images/basic.png";
+import FeaturesBg2 from "@/public/images/standard.png";
+import FeaturesBg3 from "@/public/images/premium.png";
 import FeaturesElement from "@/public/images/idbs_click.png";
 
 export default function Features() {
@@ -52,7 +54,7 @@ export default function Features() {
               It is our belief that digital
               technology can be used to improve
               the way business operates and
-              interacts with its economy.
+              interacts with its economy
             </p>
           </div>
 
@@ -70,8 +72,12 @@ export default function Features() {
                 <p className="text-base text-gray-600">
                   Easy to follow certification
                   journey in
-                  <br /> digital business
-                  transformation and strategy.
+                  <br />
+                  <strong>
+                    {" "}
+                    digital business
+                    transformation and strategy
+                  </strong>
                 </p>
               </div>
               {/* Tabs buttons */}
@@ -208,19 +214,20 @@ export default function Features() {
                   <div className="relative inline-flex flex-col">
                     <Image
                       className="md:max-w-none mx-auto rounded"
-                      src={FeaturesBg}
+                      src={FeaturesBg1}
                       width={500}
                       height="462"
                       alt="Features bg"
                     />
-                    <Image
-                      className="md:max-w-none absolute w-2/3 right-0 transform animate-float rounded-xl"
-                      src={FeaturesElement}
-                      width={500}
-                      height="24"
-                      alt="Element"
-                      style={{ top: "65%" }}
-                    />
+
+                    <div className="md:max-w-none absolute bottom-36 right-0 transform animate-float rounded-xl">
+                      <a
+                        className="text-white text-sm bg-gray-900 hover:bg-gray-800 w-full px-6 py-2 rounded-lg shadow-lg"
+                        href="https://institutedbs.com/shop/"
+                      >
+                        Read more
+                      </a>
+                    </div>
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -238,19 +245,19 @@ export default function Features() {
                   <div className="relative inline-flex flex-col">
                     <Image
                       className="md:max-w-none mx-auto rounded"
-                      src={FeaturesBg}
+                      src={FeaturesBg2}
                       width={500}
                       height="462"
                       alt="Features bg"
                     />
-                    <Image
-                      className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={FeaturesElement}
-                      width={500}
-                      height="44"
-                      alt="Element"
-                      style={{ top: "30%" }}
-                    />
+                    <div className="md:max-w-none absolute bottom-36 right-0 transform animate-float rounded-xl">
+                      <a
+                        className="text-white text-sm bg-gray-900 hover:bg-gray-800 w-full px-6 py-2 rounded-lg shadow-lg"
+                        href="https://institutedbs.com/shop/"
+                      >
+                        Read more
+                      </a>
+                    </div>
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -268,19 +275,19 @@ export default function Features() {
                   <div className="relative inline-flex flex-col">
                     <Image
                       className="md:max-w-none mx-auto rounded"
-                      src={FeaturesBg}
+                      src={FeaturesBg3}
                       width={500}
                       height="462"
                       alt="Features bg"
                     />
-                    <Image
-                      className="md:max-w-none absolute w-full left-0 transform animate-float"
-                      src={FeaturesElement}
-                      width={500}
-                      height="44"
-                      alt="Element"
-                      style={{ top: "30%" }}
-                    />
+                    <div className="md:max-w-none absolute bottom-36 right-0 transform animate-float rounded-xl">
+                      <a
+                        className="text-white text-sm bg-gray-900 hover:bg-gray-800 w-full px-6 py-2 rounded-lg shadow-lg"
+                        href="https://institutedbs.com/shop/"
+                      >
+                        Read more
+                      </a>
+                    </div>
                   </div>
                 </Transition>
               </div>
